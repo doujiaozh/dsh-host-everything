@@ -1,0 +1,57 @@
+{
+  "name": "dsh-host-everything",
+  "version": "0.1.0",
+  "description": "Everything is a Host — a dependency-free universal host bus that turns system natives, DSH builtins, standalone apps and remote services into uniformly schedulable hosts. TypeScript + Node.js core modules + JSON-RPC.",
+  "license": "MIT",
+  "author": "dsh-host-everything contributors",
+  "keywords": [
+    "agent",
+    "host-bus",
+    "dispatcher",
+    "registry",
+    "json-rpc",
+    "child-process",
+    "microkernel",
+    "win7-friendly",
+    "deepseek-harness"
+  ],
+  "homepage": "https://github.com/your-org/dsh-host-everything",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/dsh-host-everything.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/dsh-host-everything/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "hostbus": "./bin/hostbus.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "bridge",
+    "hosts",
+    "config",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "typecheck": "node scripts/build.js --no-emit",
+    "start": "node bin/hostbus.js",
+    "repl": "node bin/hostbus.js",
+    "rpc": "node bin/hostbus.js --rpc",
+    "serve": "node bin/hostbus.js --serve 127.0.0.1:8421",
+    "smoke": "node scripts/smoke.js",
+    "clean": "node -e \"const fs=require('fs');try{fs.rmdirSync('dist',{recursive:true})}catch(e){}\""
+  },
+  "devDependencies": {
+    "@types/node": ">=14.0.0",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+*.tsbuildinfo
+
+# logs & runtime artifacts
+*.log
+hostbus-*.json
+
+# editors & os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# local config (kept out of git; copy hosts.example.js over it)
+config/hosts.config.js
