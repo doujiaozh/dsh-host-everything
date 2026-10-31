@@ -15,13 +15,13 @@
     "win7-friendly",
     "deepseek-harness"
   ],
-  "homepage": "https://github.com/your-org/dsh-host-everything",
+  "homepage": "https://github.com/doujiaozh/dsh-host-everything",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-org/dsh-host-everything.git"
+    "url": "git+https://github.com/doujiaozh/dsh-host-everything.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/dsh-host-everything/issues"
+    "url": "https://github.com/doujiaozh/dsh-host-everything/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
