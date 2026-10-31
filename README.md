@@ -1,3 +1,9 @@
+![Demo](assets/demo.gif)
+
+**This is not a framework, this is a protocol for the AI era.**
+
+---
+
 # dsh-host-everything
 
 **一切皆主程序 (Everything is a Host Program)** — 一个零依赖、纯 TypeScript + Node.js 的
